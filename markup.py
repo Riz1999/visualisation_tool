@@ -2,7 +2,7 @@ def app_intro():
   return """
   <div style='text-align: left; padding: 20px; border-radius: 10px;'>
   <h1 style='text-align: center; color: #333;'>NaturalViz : Data Exploration and Visualization with NLP </h1>
-  <h2 style='text-align: center; color: #666;'>Demo for Lablab.ai Mixtral hackathon </h2>
+  
 
   <p style='font-size: 18px; color: #444;'>Welcome to NaturalViz!  This app explores how Language Models (LLMs) can help you visualize data  just by talking to it!. we originaly wrote NaturalViz to use OpenAI functions but now have been fully converted to use  Mistral-8x7B-Instruct </p>
 
