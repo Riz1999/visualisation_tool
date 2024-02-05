@@ -7,6 +7,7 @@ import os
 import streamlit as st
 from langchain_community.llms import HuggingFaceHub
 
+HF_TOKEN="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"
 os.environ["HF_TOKEN"] == st.secrets["HF_TOKEN"]
 
 
