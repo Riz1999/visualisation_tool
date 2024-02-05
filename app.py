@@ -9,6 +9,7 @@ from modules import replace_default_dataset, save_uploaded_dataset
 import pandas as pd
 import os
 
+hf_token = os.environ['HF_TOKEN']
 if 'error' not in st.session_state:
     st.session_state['error'] = []
 
