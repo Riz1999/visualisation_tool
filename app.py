@@ -10,7 +10,8 @@ import pandas as pd
 import os
 
 
-os.environ["HF_TOKEN"] == st.secrets["HF_TOKEN"]
+HF_TOKEN="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"
+#os.environ["HF_TOKEN"] == st.secrets["HF_TOKEN"]
 hf_token = os.environ['HF_TOKEN']
 if 'error' not in st.session_state:
     st.session_state['error'] = []
